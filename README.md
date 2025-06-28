@@ -1,6 +1,12 @@
+<div align="center">
+
 # B-List
 
 一个高性能的 WebDAV 服务器，提供 Web 管理控制台和 WebDAV 文件共享功能。
+
+<image src="./images/create-resource.png" width="80%">
+
+</div>
 
 ## 功能特性
 
