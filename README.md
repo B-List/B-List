@@ -33,15 +33,15 @@ services:
       # HTTP 管理端口
       # - "8180:80"     
       # HTTPS 管理端口
-      - "8128:443"   
+      - "8128:8128"   
     volumes:
       - ./data:/app/data
       - ./config:/app/config
       # 挂载本地目录
       - /usb_hdd/:/webdav-storage
       # 自定义 SSL 证书
-      # - /root/cert/b-list.org.crt:/etc/nginx/ssl/b-list.org.crt
-      # - /root/cert/b-list.org.key:/etc/nginx/ssl/b-list.org.key
+      # - /root/cert/b-list.org.crt:/b-list.org.crt
+      # - /root/cert/b-list.org.key:/b-list.org.key
     environment:
       - TZ=Asia/Shanghai
 ```
